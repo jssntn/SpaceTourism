@@ -12,42 +12,43 @@
     max-height:120px ;
     font-size: 16px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     height: 10%;
     width: 100%;
-    margin-top:2%;
+    margin-top:2em;
     flex-wrap: wrap;
 }
 
 .logo{
     position: relative;
     top:25%;
-    left: -2%;
-    height: 50px;
+    left: 0%;
+    height: 60px;
+    width: 9%;
 }
 
 
 .hr{
     opacity: 0.8;
-    width: 35%;
-    position: relative;
-    left:2%;
-    z-index: 1;
-    top:50%;
+    width: 32vw;
+    position: fixed;
+    left:10%;
+    z-index: 11;
+    top:9.5%;
     height: 2px;
 }
 .menu ul{
     min-height: 100px;
-    min-width: 800px;
+    min-width: 520px;
     max-height: 110px;
-    font-family: 'Barlow Condensed', sans-serif;;
+    font-family: 'Barlow Condensed', sans-serif;
     display: flex;
-    gap:9%;
+    gap:3vw;
     justify-content: center;
     align-items: center;
     list-style: none;
     height: 100%;
-    width: 55%;
+    width: 58%;
     opacity: 1;
     background-image: url('../../../public/img/background/menu/blur.svg');
     background-color: rgba(208, 214, 249,0.07);
@@ -75,7 +76,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 200;
     text-decoration: none;
     color:white;

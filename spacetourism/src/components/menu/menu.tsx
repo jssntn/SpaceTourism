@@ -6,7 +6,6 @@ export default function Menu(){
     const isActive = (pathname:string) => router.pathname === pathname
 
     return (
-        <div className={styles.wrapper}>
             <div className={styles.menu}>
                 <img className={styles.logo} src="/img/menu/logo.svg" alt="logo" />
                 <img className={styles.hr} src="/img/menu/horizontalLine.svg" alt="hr.svg" />
@@ -25,6 +24,5 @@ export default function Menu(){
                     </li>
                 </ul>
             </div>
-        </div>
     )
 }

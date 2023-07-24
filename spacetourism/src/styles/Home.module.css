@@ -1,4 +1,5 @@
-.wrapper{
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&display=swap');.wrapper{
+  color:white;
   height: 100vh;
   width: 100vw;
   background-image: url('../../public/img/background/home/homeBackground.svg');
@@ -7,7 +8,84 @@
   overflow: hidden;
 }
 .overlay{
+  position: fixed;
+  top:0;
   height: 100%;
   width: 100%;
-  background-color: rgba(11, 13, 23, 0.4);
+  background-color: rgba(11, 13, 23, 0.1);
+  z-index: 0;
 }
+
+.body{
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.bodyContent{
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+
+.mainContent{
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  height: 100%;
+  z-index: 2;
+}
+
+.mainContent h1{
+  font-size: 9em;
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+  margin:0;
+  z-index: 2;
+}
+
+  .mainContent h3{
+    font-size: 1.75em;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+  }
+
+  .mainContent p{
+    width: 58%;
+    text-align: justify;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    color: #D0D6F9;
+    line-height: 1.7em;
+  }
+  
+  .explore{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 88%;
+    width: 50%;
+  }
+
+  .explore button{
+    font-family: 'Bellefair', serif;
+    font-size: 1.9em;
+    font-weight: 500;
+    height: 9em;
+    width: 9em;
+    border-radius: 100%;
+    background-color: white;
+    z-index: 2;
+    margin: 0;
+    margin-left: 5em;
+    border: none;
+  }
+
+  .explore button:hover{
+    outline: 2.5em solid rgba(208, 214, 249, 0.1);
+    
+  }
+
