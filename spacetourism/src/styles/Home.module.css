@@ -6,3 +6,8 @@
   background-repeat: no-repeat;
   overflow: hidden;
 }
+.overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(11, 13, 23, 0.4);
+}

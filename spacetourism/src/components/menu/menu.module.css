@@ -16,6 +16,7 @@
     height: 10%;
     width: 100%;
     margin-top:2%;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -24,17 +25,11 @@
     left: -2%;
     height: 50px;
 }
-/* 
-.logo{
-    position: fixed;
-    top:6%;
-    left: 3%;
-    height: 50px;
-} */
+
 
 .hr{
     opacity: 0.8;
-    width: 35vw;
+    width: 35%;
     position: relative;
     left:2%;
     z-index: 1;
@@ -65,12 +60,21 @@
     height: 100%;
     display: flex;
     align-items: center;
-    gap:1em;
     margin-right: 1em;
     backdrop-filter: blur(0px)!important;
+    white-space: nowrap;
+}
+
+.menu ul li:hover{
+    border-bottom: 3px solid #616476;
+    cursor: pointer;
 }
 
 .menu a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
     font-size: 1.2em;
     font-weight: 200;
     text-decoration: none;
@@ -78,8 +82,9 @@
 }
 
 .menu span{
-    font-size: 1.2em;
+    font-size: 1.05em;
     color:white;
     font-weight: 600;
+    margin-right: 0.8em;
 }
 
