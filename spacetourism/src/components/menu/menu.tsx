@@ -1,10 +1,17 @@
 import styles from './menu.module.css'
+import { useRouter } from 'next/router'
+
 export default function Menu(){
+    const router = useRouter()
+    const isActive = (pathname:string) => router.pathname === pathname
+
     return (
         <div className={styles.wrapper}>
             <div className={styles.menu}>
+                <img className={styles.logo} src="/img/menu/logo.svg" alt="logo" />
+                <img className={styles.hr} src="/img/menu/horizontalLine.svg" alt="hr.svg" />
                 <ul>
-                    <li>
+                    <li style={isActive('/') ? { borderBottom: '2px solid white' } : {}}>
                         <span>0 0 </span>  <a href="#"> H O M E</a>
                     </li>
                     <li>

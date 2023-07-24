@@ -8,15 +8,42 @@
     align-items: flex-end;
 }
 .menu{
+    min-height: 100px;
+    max-height:120px ;
     font-size: 16px;
     display: flex;
     justify-content: flex-end;
-    height: 12%;
+    height: 10%;
     width: 100%;
+    margin-top:2%;
+}
+
+.logo{
+    position: relative;
+    top:25%;
+    left: -2%;
+    height: 50px;
+}
+/* 
+.logo{
+    position: fixed;
+    top:6%;
+    left: 3%;
+    height: 50px;
+} */
+
+.hr{
+    opacity: 0.8;
+    width: 35vw;
+    position: relative;
+    left:2%;
+    z-index: 1;
+    top:50%;
+    height: 2px;
 }
 .menu ul{
-    min-height: 100px;;
-    min-width: 660px;
+    min-height: 100px;
+    min-width: 800px;
     max-height: 110px;
     font-family: 'Barlow Condensed', sans-serif;;
     display: flex;
@@ -28,21 +55,21 @@
     width: 55%;
     opacity: 1;
     background-image: url('../../../public/img/background/menu/blur.svg');
-    backdrop-filter: blur(10px);
-    
+    background-color: rgba(208, 214, 249,0.07);
+    backdrop-filter: blur(20px);
+    margin:0;
 }
 
 .menu ul li{
+    z-index: 1;
     height: 100%;
     display: flex;
     align-items: center;
     gap:1em;
     margin-right: 1em;
+    backdrop-filter: blur(0px)!important;
 }
 
-.menu ul li:hover{
-    border-bottom: 3px solid white;
-}
 .menu a{
     font-size: 1.2em;
     font-weight: 200;
