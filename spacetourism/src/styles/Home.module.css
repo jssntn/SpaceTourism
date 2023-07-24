@@ -20,6 +20,7 @@
   width: 100%;
   height: 100%;
   z-index: 2;
+  cursor:default;
 }
 .bodyContent{
   display: flex;
@@ -36,6 +37,7 @@
   width:50%;
   height: 100%;
   z-index: 2;
+  margin: 4em 0 0 2em;
 }
 
 .mainContent h1{
@@ -44,22 +46,30 @@
   font-weight: 400;
   margin:0;
   z-index: 2;
+  letter-spacing: 0.05em;
 }
 
   .mainContent h3{
+    text-align: left;
     font-size: 1.75em;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 300;
     letter-spacing: 0.2em;
+    margin-right: 2em;
+    color:#D0D6F9;
   }
 
   .mainContent p{
-    width: 58%;
+    font-size: 1.15em;;
+    width: 65%;
+    max-width: 500px;
+    min-width: 420px;
     text-align: justify;
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     color: #D0D6F9;
     line-height: 1.7em;
+    margin-top:1em;
   }
   
   .explore{
@@ -86,6 +96,7 @@
 
   .explore button:hover{
     outline: 2.5em solid rgba(208, 214, 249, 0.1);
+    cursor: pointer;
     
   }
 
