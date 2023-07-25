@@ -45,6 +45,7 @@
 
 
   .mainContent{
+    height: 100%;
     max-width: 485px;
     display: flex;
     flex-direction: column;
