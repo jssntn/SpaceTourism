@@ -15,6 +15,7 @@
   }
 
   .wrapper h2{
+    max-width: 1170px;
     font-size:  1.75em;
     font-weight: 200;
     width: 80%;
@@ -28,6 +29,7 @@
     opacity: 0.2;
   }
   .content{
+    max-width: 1500px;
     display: flex;
     width: 100%;
     justify-content: space-around;
