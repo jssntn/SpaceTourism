@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&display=swap');.wrapper{
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&display=swap');
+
+.wrapper{
   color:white;
   height: 100vh;
   width: 100vw;
