@@ -10,3 +10,14 @@ html, body{
   height: 100%;
   width: 100%;
 }
+
+.react-multi-carousel-dot-list .react-multi-carousel-dot button{
+  background-color: #979797;
+  opacity: 0.5;
+  
+}
+
+.react-multi-carousel-dot-list .react-multi-carousel-dot--active button {
+  background-color: #fff;
+  opacity: 1;
+}

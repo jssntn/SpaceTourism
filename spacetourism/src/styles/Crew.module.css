@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&display=swap');
+
 .wrapper{
     font-size: 16px;
     display: flex;
@@ -14,7 +16,7 @@
 
   .wrapper h2{
     max-width: 1170px;
-    font-size:  1.75em;
+    font-size:  1.9em;
     font-weight: 200;
     width: 80%;
     margin: 3.5em 0 1.5em 0;
@@ -27,31 +29,80 @@
     opacity: 0.2;
   }
   .carousel{
-      
-      width: 100%;
-  }
-  .crewMember{
     display: flex;
+    font-size: 16px;
     width: 100%;
+    height: 65%;
+    overflow: visible;
+      
+      
+  }
+  .dotList{
+    margin-left:11vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10vw;
+    margin-bottom: 4em;;
   }
   .dotList li{
-    margin: 1em;
+    margin: 0.8em;
   }
 
   .dotList li button {
     border: none;
-    height: 1em;
+    height: 1.2em;
+    width: 1.2em;
   }
-  
-  /* .dotList li button{
-    color: black;
-    opacity: 1;
-  } */
-  
-  .dotList li .react-multi-carousel-dot--active button{
-    background-color: white;
-    opacity: 1;
+
+  .crewMember{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
   }
+
+  .crewMember img{
+    margin-right: 8em;
+  }
+
+  .memberContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10vw;
+    margin-bottom:5em;
+  }
+  .crewMember h1{
+    font-size: 3.5em;
+    font-family: 'Bellefair', serif;
+    font-weight: 200;
+    margin:0;
+
+  }
+ .crewMember h3{
+    font-size: 2em;
+    font-family: 'Bellefair', serif;
+    font-weight: 100;
+    margin:0;
+    opacity: 0.5;
+ }
+
+ .crewMember p{
+  font-size: 1.2em;
+  font-family: 'Barlow', sans-serif;
+  color:#D0D6F9;
+  font-weight: 300;
+  line-height: 1.8em;
+  letter-spacing: 0.028em;
+  width: 26em;
+ }
+
+
+  
+ 
+  
   
   
  

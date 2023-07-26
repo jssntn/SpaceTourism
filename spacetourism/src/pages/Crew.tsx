@@ -53,7 +53,7 @@ export default function Crew() {
     <div className={styles.wrapper}>
       <Menu></Menu>
       <h2>
-        <span>01 </span> PICK YOUR DESTINATION
+        <span>01 </span> MEET YOUR CREW
       </h2>
       <Carousel className={styles.carousel} swipeable={false}
         draggable={false}
@@ -76,10 +76,13 @@ export default function Crew() {
           // console.log(item);
           return(
           <div className={styles.crewMember} key={index}>
-          <h3>{item.name}</h3>
-          <img src={item.img} alt={item.name} />
-          
-        </div>
+            <div className={styles.memberContent}>
+            <h3>{item.position.toUpperCase()}</h3>
+            <h1>{item.name.toUpperCase()}</h1>
+            <p>{item.bio}</p>
+            </div>
+            <img src={item.img} alt={item.name} />
+          </div>
         )
         }
       )}
