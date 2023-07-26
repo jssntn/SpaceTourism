@@ -1,7 +1,11 @@
 import Menu from "@/components/menu/menu"
+import styles from "@/styles/Technology.module.css"
 
 export default function Technology(){
     return(
-        <Menu></Menu>
+        <div className={styles.wrapper}>
+            <Menu></Menu>
+            
+        </div>
     )
 }

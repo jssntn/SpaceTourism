@@ -11,3 +11,50 @@
     background-repeat: no-repeat;
     overflow: hidden;
   }
+
+  .wrapper h2{
+    max-width: 1170px;
+    font-size:  1.75em;
+    font-weight: 200;
+    width: 80%;
+    margin: 3.5em 0 1.5em 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.28em;
+  }
+
+  .wrapper h2 span{
+    font-weight: 500;
+    opacity: 0.2;
+  }
+  .carousel{
+      
+      width: 100%;
+  }
+  .crewMember{
+    display: flex;
+    width: 100%;
+  }
+  .dotList li{
+    margin: 1em;
+  }
+
+  .dotList li button {
+    border: none;
+    height: 1em;
+  }
+  
+  /* .dotList li button{
+    color: black;
+    opacity: 1;
+  } */
+  
+  .dotList li .react-multi-carousel-dot--active button{
+    background-color: white;
+    opacity: 1;
+  }
+  
+  
+ 
+  
+  
+  

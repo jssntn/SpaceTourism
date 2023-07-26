@@ -25,9 +25,10 @@
   }
 
   .wrapper h2 span{
-    font-weight: 400;
+    font-weight: 500;
     opacity: 0.2;
   }
+
   .content{
     max-width: 1500px;
     display: flex;
