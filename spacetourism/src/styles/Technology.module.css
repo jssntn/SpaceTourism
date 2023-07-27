@@ -12,4 +12,17 @@
     overflow: hidden;
   }
 
- 
+  .wrapper h2{
+    max-width: 1170px;
+    font-size:  1.75em;
+    font-weight: 200;
+    width: 80%;
+    margin: 3.5em 0 1.5em 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.28em;
+  }
+
+  .wrapper h2 span{
+    font-weight: 500;
+    opacity: 0.2;
+  }

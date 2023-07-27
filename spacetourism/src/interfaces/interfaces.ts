@@ -13,6 +13,8 @@ export interface CrewMember{
     bio: string
 }
 
-export interface carouselProps{
-    data: CrewMember[]
+export interface Technology{
+    name: string,
+    description: string,
+    img: string
 }

@@ -1,5 +1,4 @@
 import Menu from '@/components/menu/menu';
-import CrewCarousel from '@/components/carousel/carousel';
 import { CrewMember } from '@/interfaces/interfaces';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -53,7 +52,7 @@ export default function Crew() {
     <div className={styles.wrapper}>
       <Menu></Menu>
       <h2>
-        <span>01 </span> MEET YOUR CREW
+        <span>02 </span> MEET YOUR CREW
       </h2>
       <Carousel className={styles.carousel} swipeable={false}
         draggable={false}
