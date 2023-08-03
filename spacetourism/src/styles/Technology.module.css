@@ -34,16 +34,20 @@
   }
 
   .content{
-    width: 70%;
+    font-size: 16px;
+    width: 68%;
+    gap: 10%;
+    margin-top: 5em;
+    max-width: 955px;
   }
 
   .content ul{
-    font-size: 16px;
     display: flex;
     flex-direction: column;
+    align-items: flex;
     gap: 2.2em;;
     list-style: none;
-    width: 60%;
+    width: 30%;
   }
 
   .content ul li{
@@ -55,9 +59,49 @@
     font-weight: 300;
     width: 2.25em;
     height: 2.25em;
-    margin-left: 3.5em;
+    margin-left: 7vw;
     border-radius: 100%;
     border: 1px solid rgba(235,235,235,0.5);
   }
 
+  .technologyInfo{
+    width: 60%;
+    margin-right: 5%;
+  }
+
+  .technologyInfo h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    letter-spacing: 0.18em;
+    margin-bottom: 1em;
+    color: #D0D6F9;
+  }
+
+  .technologyInfo h1{
+    margin: 0;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-size: 3.5em;
+  }
+
+  .technologyInfo p{
+    font-size: 1.2em;
+    line-height: 1.7em;
+    font-family: 'Barlow', sans-serif;
+    color:#D0D6F9;
+    width: 90%;
+  }
+
+  .mainImage{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainImage img{
+    width: 100%;
+  }
  
