@@ -21,3 +21,9 @@ html, body{
   background-color: #fff;
   opacity: 1;
 }
+.react-multi-carousel-item{
+  visibility: hidden;
+}
+.react-multi-carousel-item--active{
+  visibility: visible;
+}
