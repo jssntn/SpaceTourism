@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;500;600&family=Barlow:wght@200;300;400&family=Bellefair&display=swap');
+
 .wrapper{
     font-size: 16px;
     display: flex;
@@ -26,3 +28,36 @@
     font-weight: 500;
     opacity: 0.2;
   }
+
+  .body, .content{
+    display: flex;
+  }
+
+  .content{
+    width: 70%;
+  }
+
+  .content ul{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2em;;
+    list-style: none;
+    width: 60%;
+  }
+
+  .content ul li{
+    font-family: 'Bellefair', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.25em;
+    font-weight: 300;
+    width: 2.25em;
+    height: 2.25em;
+    margin-left: 3.5em;
+    border-radius: 100%;
+    border: 1px solid rgba(235,235,235,0.5);
+  }
+
+ 
